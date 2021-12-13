@@ -1,0 +1,139 @@
+body{
+
+box-sizing: border-box;
+background:linear-gradient(135deg,#430bac,#851fad);
+color: white;
+font-family: 'Roboto', sans-serif;
+}
+.image{
+    display: none;
+}
+
+.logo{
+    padding-left: 77px;
+    padding-top: 60PX;
+    margin-bottom: 90px;
+}
+
+.search-box{
+    width: 320px;
+    height: 620px;
+    margin: auto;
+}
+
+.price-min-max input{
+    width: 30%;}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 10px;
+    font: 18px;
+    padding: 5px;
+
+}
+select {
+     font: 15px; 
+    width: 100%;
+    padding: 10px;
+}
+form input{
+    width: 92%;
+    padding: 10px;
+    border-radius: 3px;
+}
+#btn{
+    margin-top: 30px;
+    background-color: rgb(39, 218, 39);
+    font-size: 20px;
+    color: white;
+    width: 95%;
+
+}
+.sold {
+    width: auto;
+}
+#checkbox {
+    width: auto;
+}
+.sold,
+#checkbox{
+    display: inline;
+}
+
+@media screen and (min-width : 700px){
+    body{
+
+        box-sizing: border-box;
+        background:linear-gradient(135deg,#430bac,#851fad);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        }
+        
+        .logo{
+            padding-left: 15px;
+            padding-top: 20px;
+            
+        }
+        .main{
+            display: flex;
+        }
+        .image{
+            width: 45%;
+            height: 28%;
+            padding-bottom: 20px;
+            display: flex;
+        
+        }
+        .search-box{
+            
+            width: 30%;
+            margin: auto;
+            
+        }
+        
+        .price-min-max input{
+            width: 30%;}
+        form{
+            width: 300px;
+            margin-left: 20px;
+        }
+        form label{
+            display: flex;
+            margin-top: 10px;
+            font: 18px;
+            padding: 5px;
+        
+        }
+        select {
+             font: 15px; 
+            width: 100%;
+            padding: 10px;
+        }
+        form input{
+            width: 92%;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        #btn{
+            margin-top: 30px;
+            background-color: rgb(39, 218, 39);
+            font-size: 20px;
+            color: white;
+            width: 95%;
+        
+        }
+        .sold {
+            width: auto;
+        }
+        #checkbox {
+            width: auto;
+        }
+        .sold,
+        #checkbox{
+            display: inline;
+        }
+    
+}
